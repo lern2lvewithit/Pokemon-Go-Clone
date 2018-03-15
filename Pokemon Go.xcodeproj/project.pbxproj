@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		7A02D9572059F90400CB9A40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A02D9562059F90400CB9A40 /* AppDelegate.swift */; };
-		7A02D9592059F90400CB9A40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A02D9582059F90400CB9A40 /* ViewController.swift */; };
+		7A02D9592059F90400CB9A40 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A02D9582059F90400CB9A40 /* MapViewController.swift */; };
 		7A02D95C2059F90400CB9A40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A02D95A2059F90400CB9A40 /* Main.storyboard */; };
 		7A02D95F2059F90400CB9A40 /* Pokemon_Go.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A02D95D2059F90400CB9A40 /* Pokemon_Go.xcdatamodeld */; };
 		7A02D9612059F90400CB9A40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A02D9602059F90400CB9A40 /* Assets.xcassets */; };
 		7A02D9642059F90400CB9A40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A02D9622059F90400CB9A40 /* LaunchScreen.storyboard */; };
+		7A02D96C205A0E8900CB9A40 /* PokedexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A02D96B205A0E8900CB9A40 /* PokedexViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7A02D9532059F90400CB9A40 /* Pokemon Go.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pokemon Go.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A02D9562059F90400CB9A40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7A02D9582059F90400CB9A40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A02D9582059F90400CB9A40 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		7A02D95B2059F90400CB9A40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A02D95E2059F90400CB9A40 /* Pokemon_Go.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pokemon_Go.xcdatamodel; sourceTree = "<group>"; };
 		7A02D9602059F90400CB9A40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A02D9632059F90400CB9A40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A02D9652059F90400CB9A40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A02D96B205A0E8900CB9A40 /* PokedexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				7A02D9562059F90400CB9A40 /* AppDelegate.swift */,
-				7A02D9582059F90400CB9A40 /* ViewController.swift */,
+				7A02D9582059F90400CB9A40 /* MapViewController.swift */,
+				7A02D96B205A0E8900CB9A40 /* PokedexViewController.swift */,
 				7A02D95A2059F90400CB9A40 /* Main.storyboard */,
 				7A02D9602059F90400CB9A40 /* Assets.xcassets */,
 				7A02D9622059F90400CB9A40 /* LaunchScreen.storyboard */,
@@ -139,7 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A02D9592059F90400CB9A40 /* ViewController.swift in Sources */,
+				7A02D9592059F90400CB9A40 /* MapViewController.swift in Sources */,
+				7A02D96C205A0E8900CB9A40 /* PokedexViewController.swift in Sources */,
 				7A02D9572059F90400CB9A40 /* AppDelegate.swift in Sources */,
 				7A02D95F2059F90400CB9A40 /* Pokemon_Go.xcdatamodeld in Sources */,
 			);
