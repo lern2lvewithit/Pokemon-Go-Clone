@@ -41,7 +41,7 @@
                                 </constraints>
                                 <state key="normal" image="pokeball"/>
                                 <connections>
-                                    <segue destination="d9T-2A-cks" kind="presentation" id="erQ-zK-AdS"/>
+                                    <segue destination="d9T-2A-cks" kind="presentation" identifier="moveToPokedex" id="erQ-zK-AdS"/>
                                 </connections>
                             </button>
                         </subviews>

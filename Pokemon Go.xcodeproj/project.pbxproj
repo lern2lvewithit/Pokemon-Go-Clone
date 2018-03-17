@@ -14,6 +14,8 @@
 		7A02D9612059F90400CB9A40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A02D9602059F90400CB9A40 /* Assets.xcassets */; };
 		7A02D9642059F90400CB9A40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A02D9622059F90400CB9A40 /* LaunchScreen.storyboard */; };
 		7A02D96C205A0E8900CB9A40 /* PokedexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A02D96B205A0E8900CB9A40 /* PokedexViewController.swift */; };
+		7AD201BA205CA63B00066375 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD201B9205CA63B00066375 /* CoreDataHelper.swift */; };
+		7AD201BC205CB55A00066375 /* PokeAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD201BB205CB55A00066375 /* PokeAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		7A02D9632059F90400CB9A40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A02D9652059F90400CB9A40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A02D96B205A0E8900CB9A40 /* PokedexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexViewController.swift; sourceTree = "<group>"; };
+		7AD201B9205CA63B00066375 /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		7AD201BB205CB55A00066375 /* PokeAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 			children = (
 				7A02D9562059F90400CB9A40 /* AppDelegate.swift */,
 				7A02D9582059F90400CB9A40 /* MapViewController.swift */,
+				7AD201BB205CB55A00066375 /* PokeAnnotation.swift */,
+				7AD201B9205CA63B00066375 /* CoreDataHelper.swift */,
 				7A02D96B205A0E8900CB9A40 /* PokedexViewController.swift */,
 				7A02D95A2059F90400CB9A40 /* Main.storyboard */,
 				7A02D9602059F90400CB9A40 /* Assets.xcassets */,
@@ -142,6 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AD201BA205CA63B00066375 /* CoreDataHelper.swift in Sources */,
+				7AD201BC205CB55A00066375 /* PokeAnnotation.swift in Sources */,
 				7A02D9592059F90400CB9A40 /* MapViewController.swift in Sources */,
 				7A02D96C205A0E8900CB9A40 /* PokedexViewController.swift in Sources */,
 				7A02D9572059F90400CB9A40 /* AppDelegate.swift in Sources */,
